@@ -11,7 +11,7 @@ st.set_page_config(layout="wide")
 # --- Custom CSS Styling ---
 st.markdown("""
 <style>
-div.stButton > button { font-size: 200px !important; padding: 30px 60px !important; width: 100%; }
+div.stButton > button { font-size: 2px !important; padding: 10px 20px !important; width: 100%; }
 div.stButton:nth-of-type(1) > button { background-color: #FFD700 !important; color: #8B4513 !important; }
 div.stButton:nth-of-type(2) > button { background-color: #8B4513 !important; color: #FFD700 !important; }
 </style>
@@ -100,9 +100,9 @@ with st.sidebar:
 current_index = calculate_index(inputs, int(dof_val))
 idx_str = str(current_index)
 
-st.markdown("<h3 style='font-size: 200%; margin-bottom: 0px;'><span style='color: #FF1493;'>" + idx_str + "</span> <span style='color: white;'>OF</span> \
+st.markdown("<h3 style='font-size: 100%; margin-bottom: 0px;'><span style='color: #FF1493;'>" + idx_str + "</span> <span style='color: white;'>OF</span> \
 <span style='color: #B66DFF;'>55,099,802,880</span> <span style='color: white;'>COMBINATIONS</span> </h3>", unsafe_allow_html=True)
-st.markdown("<h1 style='color: lightblue; font-size: 300%; margin-top: 10px;'>TYPOLOGY PRIMER CODIFICATION ENGINE</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='color: lightblue; font-size: 100%; margin-top: 10px;'>TYPOLOGY PRIMER CODIFICATION ENGINE</h1>", unsafe_allow_html=True)
 
 # --- UI: Action Buttons ---
 c1, c2 = st.columns([1, 4])
