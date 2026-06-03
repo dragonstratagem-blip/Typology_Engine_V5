@@ -131,7 +131,7 @@ if c2.button("Generate"):
         )
         html_out += styled_letter
         
-    st.markdown("<div style='font-size: clamp(100px, 30vw, 1200px); text-align: center;'>" + html_out + "</div>", unsafe_allow_html=True)
+    st.markdown("<div style='font-size: clamp(90px, 25vw, 1000px); text-align: center;'>" + html_out + "</div>", unsafe_allow_html=True)
 
 # --- UI: Glossary Section ---
 st.markdown("---")
