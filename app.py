@@ -100,8 +100,14 @@ with st.sidebar:
 current_index = calculate_index(inputs, int(dof_val))
 idx_str = str(current_index)
 
-st.markdown("<h3 style='font-size: 150%; margin-bottom: 0px;'><span style='color: #FF1493;'>" + idx_str + "</span> <span style='color: white;'>OF</span> \
-<span style='color: #B66DFF;'>55,099,802,880</span> <span style='color: white;'>COMBINATIONS</span> </h3>", unsafe_allow_html=True)
+st.markdown(f"""
+    <h3 style='font-size: 150%; margin-bottom: 0px;'>
+        <span style='color: #FF1493;'>{current_index:,}</span> 
+        <span style='color: white;'>OF</span> 
+        <span style='color: #B66DFF;'>55,099,802,880</span> 
+        <span style='color: white;'>COMBINATIONS</span> 
+    </h3>
+    """, unsafe_allow_html=True)
 st.markdown("<h1 style='color: lightblue; font-size: 150%; margin-top: 10px;'>TYPOLOGY PRIMER CODIFICATION ENGINE</h1>", unsafe_allow_html=True)
 
 # --- UI: Action Buttons ---
