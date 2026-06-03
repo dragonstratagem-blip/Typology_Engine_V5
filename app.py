@@ -11,9 +11,9 @@ st.set_page_config(layout="wide")
 # --- Custom CSS Styling ---
 st.markdown("""
 <style>
-div.stButton > button { font-size: 200px !important; padding: 50px 100px !important; width: 200%; }
+div.stButton > button { font-size: 200px !important; padding: 50px 100px !important; width: 100%; }
 div.stButton:nth-of-type(1) > button { background-color: #FFD700 !important; color: #8B4513 !important; }
-div.stButton:nth-of-type(2) > button { background-color: #C0C0C0 !important; color: #FFD700 !important; }
+div.stButton:nth-of-type(2) > button { background-color: #8B4513 !important; color: #FFD700 !important; }
 </style>
 """, unsafe_allow_html=True)
 
