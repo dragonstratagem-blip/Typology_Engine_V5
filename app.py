@@ -131,12 +131,12 @@ if c2.button("Generate"):
         )
         html_out += styled_letter
         
-    st.markdown("<div style='font-size: clamp(50px, 15vw, 300px); text-align: center;'>" + html_out + "</div>", unsafe_allow_html=True)
+    st.markdown("<div style='font-size: clamp(50px, 15vw, 600px); text-align: center;'>" + html_out + "</div>", unsafe_allow_html=True)
 
 # --- UI: Glossary Section ---
 st.markdown("---")
 st.markdown('''
-<div style="font-size: 150%; font-weight: bold; color: #FFEF00;">
+<div style="font-size: 100%; font-weight: bold; color: #FFEF00;">
 <h3>Glossary of Typology Primers</h3>
 <ul><li><b>PL (Practicality)</b>: The quality or state of being of relating to, or manifested in practice or action : not theoretical or ideal.<ul><li><b>+PL = (E)</b>: Extraversion: The use of practicality in decision making.</li><li><b>-PL = (I)</b>: Introversion: the lack of practicality and decision making.</li></ul></li>
 <li><b>PN (Protocol)</b>: A system of rules that explain the correct conduct and procedures to be followed in formal situations.<ul><li><b>+PN = (S)</b>: Sensing: The use of protocol in decision making.</li><li><b>-PN = (N)</b>: Intuition: the lack of protocol in decision making.</li></ul></li>
