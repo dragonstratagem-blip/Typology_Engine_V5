@@ -100,7 +100,7 @@ with st.sidebar:
 current_index = calculate_index(inputs, int(dof_val))
 idx_str = str(current_index)*5
 
-st.markdown("<h3 style='font-size: 200%; margin-bottom: 0px;'><span style='color: #FF1493;'>" + idx_str + "</span> <span style='color: white;'>OF</span> 
+st.markdown("<h3 style='font-size: 200%; margin-bottom: 0px;'><span style='color: #FF1493;'>" + idx_str + "</span> <span style='color: white;'>OF</span> \
 <span style='color: #8A2BE2;'>55,099,802,880</span> <span style='color: white;'>COMBINATIONS</span> </h3>", unsafe_allow_html=True)
 st.markdown("<h1 style='color: lightblue; font-size: 300%; margin-top: 10px;'>TYPOLOGY PRIMER CODIFICATION ENGINE</h1>", unsafe_allow_html=True)
 
