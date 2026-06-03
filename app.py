@@ -35,7 +35,7 @@ def calculate_index(inputs, dof_val):
 
 # --- HTML Styling Engine ---
 def apply_styles(letter, influence_pol, influence_mag, capacity_pol, capacity_mag, dof_val):
-    fonts = {"4":"serif", "3":"sans-serif", "2":"fantasy", "1":"cursive", "0":"monospace"}
+    fonts = {"4":"Times New Roman", "3":"Arial", "2":"Impact", "1":"Comic Sans MS", "0":"Courier New"}
     style = ["font-family: " + fonts[dof_val] + ";"]
     
     if influence_pol == "+": 
